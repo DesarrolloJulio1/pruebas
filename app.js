@@ -10,9 +10,9 @@ function validarFormulario(e){
     const nombre = document.querySelector("#nombre").value
     const select = document.querySelector("#select").value
 
-    const nom = document.getElementById("nom");
+    const nom = document.getElementById("nombre");
     nom.textContent = ${nombre}
 
-    const sex = document.getElementById("sex");
+    const sex = document.getElementById("select");
     sex.textContent = ${select}
 }
